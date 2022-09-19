@@ -1,5 +1,5 @@
 import { lazy, Suspense } from "react";
-import { Route, Routes, Navigate } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
 const TasksList = lazy(() => import("./tasks-list"));
 const TaskDetail = lazy(() => import("./task-detail"));

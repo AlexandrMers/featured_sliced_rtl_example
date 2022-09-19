@@ -1,7 +1,8 @@
 import { ReactNode } from "react";
 import { Link } from "react-router-dom";
 
-import { Row } from "antd"; // ~ "shared/ui/row"
+// ~ "shared/ui/row"
+import { Row } from "antd";
 
 import cn from "classnames";
 
